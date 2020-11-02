@@ -7,39 +7,37 @@
 </head>
 
 <body>
-    <!--NAVIGATION-->
-    <nav class="navigation-container">
-        <!--HEADER-->
-     <header class="header">
+    <!--HEADER-->
+    <header class="header">
         <a href="/">WebStudio</a>
-     </header>
-
+        <!--NAVIGATION-->
+     <nav class="navigation-container">
+        
+        
      <!--WEB SITES NAVIGATION-->
      <ul class="navigation">
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+         <li><a href="">Студия</a></li>
+         <li><a href="">Портфолио</a></li>
+         <li><a href="">Контакты</a></li>
      </ul>
      </nav>
 
-    <!--CONTACTS-->
-    <div class="contacts">
-        <span class="emeil-mobile"><a href="mailto:info@devstudio.com">info@devstudio.com</a></span>
-    </div>
-
-    <div class="contacts">
-        <span class="emeil-mobile"><a href="">+38 096 111 11 11</a></span>
-    </div>
+     <!--CONTACTS-->
+     <ul class="contacts-list">
+         <li><a href="mailto:info@devstudio.com" class="emeil-mobile">info@devstudio.com</a></li>
+         <li><a href="tel:+380961111111" class="emeil-mobile">+38 096 111 11 11</a></li>
+     </ul>
+    </header>
 
     <!--MAIN-->
     <main>
         <!--HERO BLOCK-->
-    <div class="hero-conteiner">
-        <h1 class="hero-conteiner_title">
+    <section class="hero-container">
+        <h1 class="hero-container_title">
             Эффективные решения для вашего бизнеса
         </h1>
-        <a href="#!">Заказать услугу</a>
-    </div>
+        <button type="submit" class="hero-container_button">Заказать услугу</button>
+    </section>
 
     <!--BENEFITS-->
     <section class="benefits-section">
@@ -75,13 +73,13 @@
         <h2 class="portfolio-title">Чем мы занимаемся</h2>
         <ul class="portfolio-list">
             <li>
-                <a href="#!"><img src="./img/portfolio-img1.png" width="370" alt="Портфолио"></a>
+                <a href="#!"><img src="./img/portfolio-img1.png" width="370" alt="Portfolio1"></a>
             </li>
             <li>
-                <a href="#!"><img src="./img/portfolio-img2.png" width="370" alt="Портфолио"></a>
+                <a href="#!"><img src="./img/portfolio-img2.png" width="370" alt="Portfolio2"></a>
             </li>
             <li>
-                <a href="#!"><img src="./img/portfolio-img3.png" width="370" alt="Портфолио"></a>
+                <a href="#!"><img src="./img/portfolio-img3.png" width="370" alt="Portfolio3"></a>
             </li>
         </ul>
     </section>
@@ -91,28 +89,28 @@
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
             <li>
-                <a href="#!"><img src="./img/team-img1.jpg" width="270" alt="Игорь Демьяненко"></a>
+                <a href="#!"><img src="./img/team-img1.jpg" width="270" alt="Product Designer"></a>
                 <h3>Игорь Демьяненко</h3>
                     <p lang="en">
                         Product Designer
                     </p>
             </li>
             <li>
-                <a href="#!"><img src="./img/team-img2.jpg" width="270" alt="Ольга Репина"></a>
+                <a href="#!"><img src="./img/team-img2.jpg" width="270" alt="Frontend Developer"></a>
                 <h3>Ольга Репина</h3>
                 <p lang="en">
                     Frontend Developer
                 </p>
             </li>
             <li>
-                <a href="#!"><img src="./img/team-img3.jpg" width="270" alt="Николай Тарасов"></a>
+                <a href="#!"><img src="./img/team-img3.jpg" width="270" alt="Marketing"></a>
                 <h3>Николай Тарасов</h3>
                 <p lang="en">
                     Marketing
                 </p>
             </li>
             <li>
-                <a href="#!"><img src="./img/team-img4.jpg" width="270" alt="Михаил Ермаков"></a>
+                <a href="#!"><img src="./img/team-img4.jpg" width="270" alt="UI Designer"></a>
                 <h3>Михаил Ермаков</h3>
                 <p lang="en">
                     UI Designer
@@ -128,27 +126,19 @@
 
         <!--FIXED ADDRESS-->
         <address>
-            <div class="address">
-              <a href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m8!1m2!2m1!1z0LMuINCa0LjQtdCyLCDQv9GALdGCINCb0LXRgdC4INCj0LrRgNCw0LjQvdC60LgsIDI2!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru">
-                   <p>
-                       г. Киев, пр-т Леси Украинки, 26
-                   </p>
-              </a>
-            </div>
-            <div class="email-phone">
-                <a href="mailto:info@devstudio.com">
-                    <p>
-                        info@devstudio.com
-                    </p>
+            <p>
+                г. Киев, пр-т Леси Украинки, 26
+            </p>
+            <a href="mailto:info@devstudio.com">
+                <p>
+                    info@devstudio.com
+                </p>
                 </a>
-            </div>
-            <div class="email-phone">
-               <a href="tel:+380961111111">
-                   <p>
-                       +38 096 111 11 11
-                   </p>
+            <a href="tel:+380961111111">
+                <p>
+                    +38 096 111 11 11
+                </p>
                </a>
-            </div>
         </address>
     </footer>
 
